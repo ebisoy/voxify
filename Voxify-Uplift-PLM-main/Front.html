@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://icons.veryicon.com/png/o/miscellaneous/cbxt/speech-synthesis.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Voxify/Uplift</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Voxify</h1>
+        <select id="voices">
+            <option>Select a Voice</option>
+            <option>Select a Voice2</option>
+            <option>Select a Voice3</option>
+        </select>
+        <label>rate</label>
+        <input type="range" value="1" min="0" max="2" step="0.1" />
+        <label>pitch</label>
+        <input type="range" value="1" min="0" max="2" step="0.1"/>
+        <textarea> WELCOME TO THE CHRISTIAN WORLD </textarea>
+
+        <div id="button">
+            <button>Stop</button>
+            <button>Speak</button>
+        </div>
+    </div>
+    
+    <script src="javascript.js"></script>
+
+</body>
+</html>
